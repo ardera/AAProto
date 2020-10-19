@@ -21,11 +21,11 @@ syntax="proto2";
 import "TouchLocationData.proto";
 import "TouchActionEnum.proto";
 
-package gb.xxy.trial.proto.data;
+package ardera.aaproto.data;
 
 message TouchEvent
 {
     repeated data.TouchLocation touch_location = 1;
-    required uint32 action_index = 2;
+    optional uint32 action_index = 2;
     required enums.TouchAction.Enum touch_action = 3;
 }

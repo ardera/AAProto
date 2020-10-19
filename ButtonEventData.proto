@@ -18,7 +18,7 @@
 
 syntax="proto2";
 
-package gb.xxy.trial.proto.data;
+package ardera.aaproto.data;
 
 message ButtonEvent
 {

@@ -18,11 +18,10 @@
 
 syntax="proto2";
 
-package ardera.aaproto.data;
+package ardera.aaproto.messages;
 
-message Accel
+message WifiInfoRequest
 {
-    required int32 acceleration_x = 1;
-    required int32 acceleration_y = 2;
-    required int32 acceleration_z = 3;
-}
+    required string ip_address = 1;
+    optional uint32 port = 2;
+} 

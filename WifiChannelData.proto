@@ -18,11 +18,13 @@
 
 syntax="proto2";
 
+option optimize_for=SPEED;
+
+
+
 package ardera.aaproto.data;
 
-message Accel
+message WifiChannel
 {
-    required int32 acceleration_x = 1;
-    required int32 acceleration_y = 2;
-    required int32 acceleration_z = 3;
-}
+    required string ssid = 1;
+} 

@@ -20,7 +20,7 @@ syntax="proto2";
 
 import "RelativeInputEventData.proto";
 
-package gb.xxy.trial.proto.data;
+package ardera.aaproto.data;
 
 message RelativeInputEvents
 {

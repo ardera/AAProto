@@ -18,7 +18,7 @@
 
 syntax="proto2";
 
-package gb.xxy.trial.proto.ids;
+package ardera.aaproto.ids;
 
 message InputChannelMessage
 {
@@ -28,6 +28,5 @@ message InputChannelMessage
         INPUT_EVENT_INDICATION = 0x8001;
         BINDING_REQUEST = 0x8002;
         BINDING_RESPONSE = 0x8003;
-		
     }
 }

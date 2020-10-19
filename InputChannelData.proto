@@ -20,7 +20,7 @@ syntax="proto2";
 
 import "TouchConfigData.proto";
 
-package gb.xxy.trial.proto.data;
+package ardera.aaproto.data;
 
 message InputChannel
 {

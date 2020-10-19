@@ -21,11 +21,11 @@ syntax="proto2";
 import "VideoFocusModeEnum.proto";
 import "VideoFocusReasonEnum.proto";
 
-package gb.xxy.trial.proto.messages;
+package ardera.aaproto.messages;
 
 message VideoFocusRequest
 {
-    required int32 disp_index = 1;
+    optional int32 disp_index = 1;
     required enums.VideoFocusMode.Enum focus_mode = 2;
     required enums.VideoFocusReason.Enum focus_reason = 3;
 }

@@ -20,7 +20,7 @@ syntax="proto2";
 
 import "BluetoothPairingMethodEnum.proto";
 
-package gb.xxy.trial.proto.data;
+package ardera.aaproto.data;
 
 message BluetoothChannel
 {
